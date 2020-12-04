@@ -1,0 +1,21 @@
+.profilePicture{
+    width:150px;
+    border-radius: 50px;
+    border: 10px solid blue;
+    border-bottom: 1px;
+}
+mainTitle{
+    vertical-align: top;
+    text-align: left;
+   
+}
+secondaryTitle{
+    vertical-align: bottom;
+    text-align: right;
+    color:blue;
+    
+}
+toTheRight{
+    text-align: right;
+    background-color: green;
+}
