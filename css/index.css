@@ -1,21 +1,68 @@
-.profilePicture{
+.profilePictureOne{
     width:150px;
+    height:150px;
     border-radius: 50px;
-    border: 10px solid blue;
-    border-bottom: 1px;
+    position: absolute;
+    right:15px;
+    top:15px;
+}
+.profilePictureTwo{
+    width:150px;
+    height:150px;
+    border-radius: 50px;
+    position: absolute;
+    right:15px;
+    top:170px;
+}
+.profilePictureThree{
+    width:150px;
+    height:150px;
+    border-radius: 50px;
+    position: absolute;
+    right:15px;
+    top:325px;
+}
+.customBannerOneOne{
+    width:100%;
+    height:75px;
+    position: absolute;
+    left:0px;
+    top:0px;
+}
+.customBannerOneTwo{
+    width:212px;
+    height:200px;
+    position: absolute;
+    right:0px;
+    top:50px;
+}
+body{
+    background-color:white;
 }
 mainTitle{
-    vertical-align: top;
-    text-align: left;
-   
+    position: absolute;
+    right:180px;
+    font-size:60px;
+    color:white;
 }
 secondaryTitle{
-    vertical-align: bottom;
-    text-align: right;
-    color:blue;
-    
+    position: absolute;
+    right:180px;
+    top:75px;
+    color:black;
+    font-size:25px;
 }
-toTheRight{
-    text-align: right;
-    background-color: green;
+thirdTitle{
+    position: absolute;
+    right:180px;
+    top:100px;
+    color:black;
+    font-size:25px;
+}
+fourthTitle{
+    position: absolute;
+    right:180px;
+    top:125px;
+    color:black;
+    font-size:25px;
 }
